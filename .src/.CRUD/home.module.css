@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+#cr{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgb(71, 68, 68),rgb(7, 7, 75));
+    padding-left: 30%;
+    padding-top: 10%;
+}
+#cr table{
+    height: 400px;
+    width: 500px;
+    border: 2px solid white;
+    box-shadow: 20px 20px 22px black;
+    padding-left: 40px;
+}
+#cr label{
+    color: yellow;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#cr th{
+    color: aqua;
+    font-size: 22px;
+
+}
+#cr input{
+    color: greenyellow;
+    border: none;
+    border-bottom: 1px solid white;
+    background:transparent;
+    font-size: 20px;
+}
+#cr input:focus{
+    outline: none;
+}
+#cr button{
+    height: 30px;
+    width: 100px;
+    font-size: 19px;
+    border-radius: 10px;
+    background-color: rgb(22, 200, 209);
+}
+#user{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgb(54, 54, 54),rgb(4, 4, 114));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#cards{
+    height: 200px;
+    width: 350px;
+    border: 2px solid white;
+    /* padding: 30px */
+    padding-left: 50px;
+    padding-top: 20px;
+    box-shadow: 20px 20px 22px black;
+}
+#cards th{
+    color: aqua;
+    font-size: 22px;
+    text-decoration: underline;
+}
+#cards td{
+    color: white;
+    font-size: 20px;
+
+}
+#cards label{
+    color: yellow;
+    text-decoration: underline;
+}
+#cards button{
+    background-color: rgb(9, 87, 15);
+    height: 28px;
+    width: 80px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 10px 10px 12px black;
+}
+#cards .del{
+    background-color: rgb(203, 71, 19);
+}
+
+#ed{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgb(71, 68, 68),rgb(7, 7, 75));
+    padding-left: 30%;
+    padding-top: 10%;
+}
+#ed table{
+    height: 400px;
+    width: 500px;
+    border: 2px solid white;
+    box-shadow: 20px 20px 22px black;
+    padding-left: 40px;
+}
+#ed label{
+    color: yellow;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+
+}
+#ed th{
+    color: aqua;
+    font-size: 22px;
+
+}
+#ed input{
+    color: greenyellow;
+    border: none;
+    border-bottom: 1px solid white;
+    background:transparent;
+    font-size: 20px;
+}
+#ed input:focus{
+    outline: none;
+}
+#ed button{
+    height: 30px;
+    width: 100px;
+    font-size: 19px;
+    border-radius: 10px;
+    background-color: rgb(10, 199, 45);
+}
+#ed .bac{
+    background-color: aqua;
+}
